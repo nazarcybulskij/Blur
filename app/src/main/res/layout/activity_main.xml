@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:blurkit="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:fillViewport="true">
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/my_recycler_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:fillViewport="true"/>
+
+
+    <com.wonderkiln.blurkit.BlurLayout
+        android:id="@+id/blurLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        blurkit:downscaleFactor="0.0"
+        blurkit:blurRadius="1"
+        />
+
+</FrameLayout>
+
+
